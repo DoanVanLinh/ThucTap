@@ -1,0 +1,21 @@
+﻿using FA.JustBlog.Models.EntityBase;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace FA.JustBlog.Core.Infrastructures
+{
+    public interface IGenericRepository<T> where T : class,IBaseEntity
+    {
+        void Add(T entity);
+        void Update(T entity);
+        void Delete(T entity, bool isHardDelete = false);
+        void Delete(int key, bool isHardDelete = false);
+        IEnumerable<T> GetAll();
+        T GetById(params int []keys);
+        IEnumerable<T> Find(Func<T, bool> condition);
+
+    }
+}

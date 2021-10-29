@@ -1,0 +1,14 @@
+D:\Desktop\Thực tập\Blogggg\FA.JustBlog\FA.JustBlog.Core\obj\Debug\FA.JustBlog.Core.csproj.CoreCompileInputs.cache
+D:\Desktop\Thực tập\Blogggg\FA.JustBlog\FA.JustBlog.Core\bin\Debug\FA.JustBlog.Core.dll.config
+D:\Desktop\Thực tập\Blogggg\FA.JustBlog\FA.JustBlog.Core\bin\Debug\FA.JustBlog.Core.dll
+D:\Desktop\Thực tập\Blogggg\FA.JustBlog\FA.JustBlog.Core\bin\Debug\FA.JustBlog.Core.pdb
+D:\Desktop\Thực tập\Blogggg\FA.JustBlog\FA.JustBlog.Core\bin\Debug\EntityFramework.dll
+D:\Desktop\Thực tập\Blogggg\FA.JustBlog\FA.JustBlog.Core\bin\Debug\EntityFramework.SqlServer.dll
+D:\Desktop\Thực tập\Blogggg\FA.JustBlog\FA.JustBlog.Core\bin\Debug\EntityFramework.xml
+D:\Desktop\Thực tập\Blogggg\FA.JustBlog\FA.JustBlog.Core\bin\Debug\EntityFramework.SqlServer.xml
+D:\Desktop\Thực tập\Blogggg\FA.JustBlog\FA.JustBlog.Core\obj\Debug\FA.JustBlog.Core.csproj.CopyComplete
+D:\Desktop\Thực tập\Blogggg\FA.JustBlog\FA.JustBlog.Core\obj\Debug\FA.JustBlog.Core.dll
+D:\Desktop\Thực tập\Blogggg\FA.JustBlog\FA.JustBlog.Core\obj\Debug\FA.JustBlog.Core.pdb
+D:\Desktop\Thực tập\Blogggg\FA.JustBlog\FA.JustBlog.Core\obj\Debug\FA.JustBlog.Core.Migrations.reInital.resources
+D:\Desktop\Thực tập\Blogggg\FA.JustBlog\FA.JustBlog.Core\obj\Debug\FA.JustBlog.Core.csproj.GenerateResource.cache
+D:\Desktop\Thực tập\Blogggg\FA.JustBlog\FA.JustBlog.Core\obj\Debug\FA.JustBlog.Core.csprojAssemblyReference.cache

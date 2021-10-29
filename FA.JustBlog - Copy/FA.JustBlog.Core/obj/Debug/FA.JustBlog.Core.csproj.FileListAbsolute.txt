@@ -1,0 +1,2 @@
+D:\Desktop\Thực tập\Blogggg\FA.JustBlog\FA.JustBlog.Core\obj\Debug\FA.JustBlog.Core.csprojAssemblyReference.cache
+D:\Desktop\Thực tập\Blogggg\FA.JustBlog\FA.JustBlog.Core\obj\Debug\FA.JustBlog.Core.csproj.CoreCompileInputs.cache
