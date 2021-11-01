@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace FA.JustBlog.Core.Infrastructures
 {
-    public abstract class GenericRepository<T> : IGenericRepository<T> where T : class,IBaseEntity
+    public abstract class GenericRepository<T> : IGenericRepository<T> where T : class, IBaseEntity
     {
         protected readonly JustBlogContext context;
         private DbSet<T> dbSet;
@@ -28,7 +28,7 @@ namespace FA.JustBlog.Core.Infrastructures
 
         public void Delete(T entity, bool isHardDelete = false)
         {
-            if(!isHardDelete)
+            if (!isHardDelete)
             {
                 this.context.Entry<T>(entity).State = EntityState.Modified;
                 entity.Status = Status.IsDeleted;
@@ -60,7 +60,8 @@ namespace FA.JustBlog.Core.Infrastructures
 
         public void Update(T entity)
         {
-            context.Entry(entity).State = EntityState.Modified;
+            var exitEntity = entity;
+            context.Entry(exitEntity).State = EntityState.Modified;
         }
     }
 }

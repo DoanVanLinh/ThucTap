@@ -51,23 +51,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Entities\Category.cs" />
-    <Compile Include="Entities\Post.cs" />
-    <Compile Include="Entities\Tag.cs" />
-    <Compile Include="EntityBase\BaseEntity.cs" />
-    <Compile Include="EntityBase\IBaseEntity.cs" />
-    <Compile Include="Enums\Status.cs" />
     <Compile Include="Infrastructures\GenericRepository.cs" />
     <Compile Include="Infrastructures\IGenericRepository.cs" />
+    <Compile Include="Infrastructures\IUnitOfWork.cs" />
+    <Compile Include="Infrastructures\UnitOfWork.cs" />
     <Compile Include="IRepositories\ICategoryRepository.cs" />
     <Compile Include="IRepositories\IPostRepository.cs" />
     <Compile Include="IRepositories\ITagRepository.cs" />
     <Compile Include="JustBlogContext.cs" />
     <Compile Include="JustBlogInitializer.cs" />
-    <Compile Include="Migrations\202110281348231_reInital.cs" />
-    <Compile Include="Migrations\202110281348231_reInital.designer.cs">
-      <DependentUpon>202110281348231_reInital.cs</DependentUpon>
-    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositories\CategoryReponsitory.cs" />
@@ -79,9 +71,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202110281348231_reInital.resx">
-      <DependentUpon>202110281348231_reInital.cs</DependentUpon>
-    </EmbeddedResource>
+    <ProjectReference Include="..\FA.JustBlog.Models\FA.JustBlog.Models.csproj">
+      <Project>{7e8f74c9-5621-4ea8-a197-fed32d58442c}</Project>
+      <Name>FA.JustBlog.Models</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

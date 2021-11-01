@@ -12,7 +12,7 @@ namespace FA.JustBlog.Core.Repositories
     {
         public PostReponsitory(JustBlogContext context) : base(context)
         {
-            Console.WriteLine("PostReponsitory is created");
+            
         }
 
         public int CountPostsForCategory(string category)
