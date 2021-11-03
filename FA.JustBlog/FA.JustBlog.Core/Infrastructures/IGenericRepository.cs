@@ -14,7 +14,7 @@ namespace FA.JustBlog.Core.Infrastructures
         void Delete(T entity, bool isHardDelete = false);
         void Delete(int key, bool isHardDelete = false);
         IEnumerable<T> GetAll();
-        T GetById(params int []keys);
+        T GetById(int key);
         IEnumerable<T> Find(Func<T, bool> condition);
 
     }

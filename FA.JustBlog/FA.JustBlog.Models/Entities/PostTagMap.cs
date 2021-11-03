@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FA.JustBlog.Core.Models
 {
-    class PostTagMap
+    public class PostTagMap
     {
         public int PostId { get; set; }
         public int TagId { get; set; }

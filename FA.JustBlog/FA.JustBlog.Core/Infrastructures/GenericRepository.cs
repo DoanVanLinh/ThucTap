@@ -53,15 +53,14 @@ namespace FA.JustBlog.Core.Infrastructures
             return this.dbSet.ToList();
         }
 
-        public T GetById(params int[] keys)
+        public T GetById( int key)
         {
-            return this.dbSet.Find(keys);
+            return this.dbSet.Find(key);
         }
 
         public void Update(T entity)
         {
-            var exitEntity = entity;
-            context.Entry(exitEntity).State = EntityState.Modified;
+            context.Entry(entity).State = EntityState.Modified;
         }
     }
 }
