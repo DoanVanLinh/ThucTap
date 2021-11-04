@@ -42,7 +42,8 @@ namespace FA.JustBlog.Core.Repositories
 
         public IList<Post> GetPostsByTag(string tag)
         {
-            return Find(p => p.Tags.Any(t => t.Name == tag)).ToList();
+            //return Find(p => p.PostTagMaps.).ToList();
+            return null;
         }
 
         public IList<Post> GetPublisedPosts()

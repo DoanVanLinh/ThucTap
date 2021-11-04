@@ -12,7 +12,7 @@ namespace FA.JustBlog.Core.Models
     {
         public Tag()
         {
-            this.Posts = new HashSet<Post>();
+            this.PostTags = new HashSet<PostTag>();
         }
 
         [Required(ErrorMessage = "Không được để trống")]
@@ -34,6 +34,6 @@ namespace FA.JustBlog.Core.Models
         [Display(Name = "Số lượng")]
         public int Count { get; set; }
 
-        public virtual ICollection<Post> Posts { get; set; }
+        public virtual ICollection<PostTag> PostTags { get; set; }
     }
 }

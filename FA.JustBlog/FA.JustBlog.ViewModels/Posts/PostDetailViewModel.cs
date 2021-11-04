@@ -1,5 +1,6 @@
 ﻿using FA.JustBlog.Core.Models;
 using FA.JustBlog.Models.Enums;
+using FA.JustBlog.ViewModels.Tags;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -26,10 +27,11 @@ namespace FA.JustBlog.ViewModels.Posts
         public DateTime? PostedOn { get; set; }
         [Display(Name = "Đã chỉnh sửa")]
         public bool Modified { get; set; }
+        [Display(Name = "Danh mục")]
         public int? CategoryId { get; set; }
         public virtual Category Category { get; set; }
-
-        public virtual ICollection<Tag> Tags { get; set; }
+        [Display(Name = "Tag")]
+        public virtual List<TagViewModel> Tags { get; set; } = new List<TagViewModel>();
         [Display(Name = "Trạng thái")]
         public Status Status { get; set; }
     }

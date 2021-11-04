@@ -102,27 +102,33 @@ namespace FA.JustBlog.Core
             };
             List<Tag> tags = new List<Tag>() { tag1, tag2, tag3 };
 
+            var postTag = new PostTag()
+            {
+                PostId = post1.Id,
+                TagId = tag1.Id
+            };
+            var postTag1 = new PostTag()
+            {
+                PostId = post2.Id,
+                TagId = tag2.Id
+            }; 
+            var postTag2 = new PostTag()
+            {
+                PostId = post3.Id,
+                TagId = tag3.Id
+            };
+            List<PostTag> postTags = new List<PostTag>() { postTag, postTag1, postTag2 };
+
             category1.Posts.Add(post1);
             category2.Posts.Add(post2);
             category3.Posts.Add(post3);
 
-            post1.Tags.Add(tag1);
-            post1.Tags.Add(tag2);
-            post2.Tags.Add(tag2);
-            post2.Tags.Add(tag3);
-            post3.Tags.Add(tag3);
-            post3.Tags.Add(tag1);
 
-            tag1.Posts.Add(post1);
-            tag1.Posts.Add(post2);
-            tag2.Posts.Add(post2);
-            tag2.Posts.Add(post3);
-            tag3.Posts.Add(post3);
-            tag3.Posts.Add(post1);
 
             context.Categories.AddRange(categories);
             context.Posts.AddRange(posts);
             context.Tags.AddRange(tags);
+            //context.PostTagMaps.AddRange(postTags);
 
             context.SaveChanges();
         }

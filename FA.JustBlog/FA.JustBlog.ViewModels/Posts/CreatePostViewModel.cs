@@ -11,6 +11,7 @@ namespace FA.JustBlog.ViewModels.Posts
 {
     public class CreatePostViewModel
     {
+        public int Id { get; set; }
         [Required(ErrorMessage = "Không được để trống")]
         [Display(Name = "Tiêu đề")]
         [StringLength(255)]
@@ -39,12 +40,12 @@ namespace FA.JustBlog.ViewModels.Posts
 
         [Display(Name = "Đã chỉnh sửa")]
         public bool Modified { get; set; }
-
+        [Display(Name = "Danh mục")]
         public int? CategoryId { get; set; }
 
-        [ForeignKey("CategoryId")]
         public virtual Category Category { get; set; }
 
-        public virtual ICollection<Tag> Tags { get; set; }
+        [Display(Name ="Tag(các nhau bằng dấu ;)")]
+        public string Tag { get; set; }
     }
 }

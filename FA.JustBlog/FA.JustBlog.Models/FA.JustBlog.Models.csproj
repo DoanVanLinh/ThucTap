@@ -53,7 +53,7 @@
   <ItemGroup>
     <Compile Include="Entities\Category.cs" />
     <Compile Include="Entities\Post.cs" />
-    <Compile Include="Entities\PostTagMap.cs" />
+    <Compile Include="Entities\PostTag.cs" />
     <Compile Include="Entities\Tag.cs" />
     <Compile Include="EntityBase\BaseEntity.cs" />
     <Compile Include="EntityBase\IBaseEntity.cs" />

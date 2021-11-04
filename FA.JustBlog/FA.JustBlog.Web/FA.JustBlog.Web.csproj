@@ -238,11 +238,6 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202111011051441_Inital.cs" />
-    <Compile Include="Migrations\202111011051441_Inital.designer.cs">
-      <DependentUpon>202111011051441_Inital.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
@@ -250,6 +245,7 @@
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Areas\Admin\Assets\UrlHelper.js" />
     <Content Include="Areas\Admin\Assets\sidebars.css" />
     <Content Include="Areas\Admin\Assets\sidebars.js" />
     <Content Include="Content\bootstrap-theme.css" />
@@ -360,11 +356,6 @@
       <Project>{de885708-c076-4710-8464-de9b02c10bab}</Project>
       <Name>FA.JustBlog.ViewModels</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Migrations\202111011051441_Inital.resx">
-      <DependentUpon>202111011051441_Inital.cs</DependentUpon>
-    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

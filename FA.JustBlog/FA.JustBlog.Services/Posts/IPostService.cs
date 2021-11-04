@@ -11,7 +11,7 @@ namespace FA.JustBlog.Services.IPost
     public interface IPostService
     {
         ResponseResult Create(CreatePostViewModel request);
-        ResponseResult Edit(EditPostViewModel request);
+        ResponseResult Edit(EditPostViewModel request,string oldTag="");
         ResponseResult Delete(DeletePostViewModel request);
 
         IEnumerable<PostViewModel> GetAll();

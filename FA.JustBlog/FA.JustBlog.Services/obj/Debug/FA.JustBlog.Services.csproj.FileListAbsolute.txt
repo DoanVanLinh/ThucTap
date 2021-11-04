@@ -27,3 +27,5 @@ D:\Desktop\Thực tập\Blogggg\FA.JustBlog\FA.JustBlog.Services\obj\Debug\FA.Ju
 D:\Desktop\Thực tập\Blogggg\FA.JustBlog\FA.JustBlog.Services\obj\Debug\FA.JustBlog.Services.csproj.CopyComplete
 D:\Desktop\Thực tập\Blogggg\FA.JustBlog\FA.JustBlog.Services\obj\Debug\FA.JustBlog.Services.dll
 D:\Desktop\Thực tập\Blogggg\FA.JustBlog\FA.JustBlog.Services\obj\Debug\FA.JustBlog.Services.pdb
+D:\Desktop\Thực tập\Blogggg\FA.JustBlog\FA.JustBlog.Services\bin\Debug\FA.JustBlog.Common.dll
+D:\Desktop\Thực tập\Blogggg\FA.JustBlog\FA.JustBlog.Services\bin\Debug\FA.JustBlog.Common.pdb

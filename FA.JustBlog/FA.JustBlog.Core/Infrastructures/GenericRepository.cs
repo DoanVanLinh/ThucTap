@@ -13,7 +13,7 @@ namespace FA.JustBlog.Core.Infrastructures
     public abstract class GenericRepository<T> : IGenericRepository<T> where T : class, IBaseEntity
     {
         protected readonly JustBlogContext context;
-        private DbSet<T> dbSet;
+        protected DbSet<T> dbSet;
 
         protected GenericRepository(JustBlogContext context)
         {

@@ -53,9 +53,11 @@ namespace FA.JustBlog.Areas.Admin.Controllers
             TempData["Categories"] = new SelectList(categoryService.GetAll(), "Id", "Name");
             return View(request);
         }
+        static string oldTag;
         public ActionResult Edit(int id)
         {
             EditPostViewModel post = postService.GetEditPostById(id);
+            oldTag = post.Tags;
             TempData["Categories"] = new SelectList(categoryService.GetAll(), "Id", "Name");
             return View(post);
         }
@@ -66,7 +68,7 @@ namespace FA.JustBlog.Areas.Admin.Controllers
         {
             if (ModelState.IsValid)
             {
-                var response = postService.Edit(request);
+                var response = postService.Edit(request,oldTag);
                 if (response.IsSuccessed)
                 {
                     TempData["Message"] = "Sửa thành công!";

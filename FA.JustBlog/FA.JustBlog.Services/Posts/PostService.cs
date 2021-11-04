@@ -5,6 +5,7 @@ using FA.JustBlog.Models.Enums;
 using FA.JustBlog.Services.IPost;
 using FA.JustBlog.ViewModels.Posts;
 using FA.JustBlog.ViewModels.Results;
+using FA.JustBlog.ViewModels.Tags;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -22,10 +23,35 @@ namespace FA.JustBlog.Services.Posts
         }
         public ResponseResult Create(CreatePostViewModel request)
         {
-
             try
             {
-                var post = Mapper.Map<Post>(request);
+                var tagIds = this.unitOfWork.TagRepository.AddTagByString(request.Tag);
+                var postTags = new List<PostTag>();
+                foreach (var tag in tagIds)
+                {
+                    var postTag = new PostTag()
+                    {
+                        TagId = tag,
+                        PostId = request.Id
+                    };
+                    postTags.Add(postTag);
+                }
+
+                var post = new Post()
+                {
+                    Title = request.Title,
+                    PostTags = postTags,
+                    CategoryId = request.CategoryId,
+                    Modified = false,
+                    PostContent = request.PostContent,
+                    PostedOn = request.PostedOn,
+                    Published = request.Published,
+                    ShortDescription = request.ShortDescription,
+                    Status = Status.Active,
+                    UrlSlug = request.UrlSlug
+                };
+
+                //var post = Mapper.Map<Post>(request);
                 this.unitOfWork.PostRepository.Add(post);
                 this.unitOfWork.SaveChange();
                 return new ResponseResult();
@@ -51,12 +77,41 @@ namespace FA.JustBlog.Services.Posts
             }
         }
 
-        public ResponseResult Edit(EditPostViewModel request)
+        public ResponseResult Edit(EditPostViewModel request,string oldTag = "")
         {
             try
             {
-                var post = Mapper.Map<Post>(request);
-                this.unitOfWork.PostRepository.Update(post);
+                var tagIds = this.unitOfWork.TagRepository.AddTagByString(request.Tags,oldTag);
+                var postTags = new List<PostTag>();
+                foreach (var tag in tagIds)
+                {
+                    var postTag = new PostTag()
+                    {
+                        TagId = tag,
+                        PostId = request.Id
+                    };
+                    postTags.Add(postTag);
+                }
+
+                var post = new Post()
+                {
+                    Title = request.Title,
+                    PostTags = postTags,
+                    CategoryId = request.CategoryId,
+                    Modified = false,
+                    PostContent = request.PostContent,
+                    PostedOn = request.PostedOn,
+                    Published = request.Published,
+                    ShortDescription = request.ShortDescription,
+                    Status = Status.Active,
+                    UrlSlug = request.UrlSlug,
+                    Id = request.Id
+                };
+
+                this.unitOfWork.PostRepository.Delete(Mapper.Map<Post>(request));
+                this.unitOfWork.PostRepository.Add(post);
+
+                //this.unitOfWork.PostRepository.Update(post);
                 this.unitOfWork.SaveChange();
                 return new ResponseResult();
             }
@@ -75,7 +130,15 @@ namespace FA.JustBlog.Services.Posts
         public EditPostViewModel GetEditPostById(int id)
         {
             var post = unitOfWork.PostRepository.GetById(id);
-            return Mapper.Map<EditPostViewModel>(post);
+            var tags = "";
+            foreach (var postTag in post.PostTags)
+            {
+                var tag = this.unitOfWork.TagRepository.GetById(postTag.TagId);
+                tags +=tag.Name + "; ";
+            }
+            EditPostViewModel postEditViewModel = Mapper.Map<EditPostViewModel>(post);
+            postEditViewModel.Tags = tags;
+            return postEditViewModel;
         }
         public DeletePostViewModel GetDeletePostById(int id)
         {
@@ -85,7 +148,15 @@ namespace FA.JustBlog.Services.Posts
         public PostDetailViewModel GetDetailPostById(int id)
         {
             var post = unitOfWork.PostRepository.GetById(id);
-            return Mapper.Map<PostDetailViewModel>(post);
+            var tags = new List<TagViewModel>();
+            foreach (var postTag in post.PostTags)
+            {
+                var tag = this.unitOfWork.TagRepository.GetById(postTag.TagId);
+                tags.Add(Mapper.Map<TagViewModel>(tag));
+            }
+            PostDetailViewModel postDetailViewModel = Mapper.Map<PostDetailViewModel>(post);
+            postDetailViewModel.Tags = tags;
+            return postDetailViewModel;
         }
 
     }

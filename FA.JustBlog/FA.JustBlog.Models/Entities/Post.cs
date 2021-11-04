@@ -13,7 +13,7 @@ namespace FA.JustBlog.Core.Models
     {
         public Post()
         {
-            this.Tags = new HashSet<Tag>();
+            this.PostTags = new HashSet<PostTag>();
         }
 
         [Required(ErrorMessage = "Không được để trống")]
@@ -50,6 +50,6 @@ namespace FA.JustBlog.Core.Models
         [ForeignKey("CategoryId")]
         public virtual Category Category { get; set; }
 
-        public virtual ICollection<Tag> Tags { get; set; }
+        public virtual ICollection<PostTag> PostTags { get; set; }
     }
 }

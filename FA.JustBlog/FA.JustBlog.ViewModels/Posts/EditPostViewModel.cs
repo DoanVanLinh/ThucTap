@@ -47,6 +47,7 @@ namespace FA.JustBlog.ViewModels.Posts
         [ForeignKey("CategoryId")]
         public virtual Category Category { get; set; }
 
-        public virtual ICollection<Tag> Tags { get; set; }
+        [Display(Name = "Tag(các nhau bằng dấu ;)")]
+        public string Tags { get; set; }
     }
 }

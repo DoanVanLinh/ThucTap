@@ -158,8 +158,6 @@ D:\Desktop\Thực tập\Blogggg\FA.JustBlog\FA.JustBlog\obj\Debug\FA.JustBlog.We
 D:\Desktop\Thực tập\Blogggg\FA.JustBlog\FA.JustBlog\obj\Debug\FA.JustBlog.dll
 D:\Desktop\Thực tập\Blogggg\FA.JustBlog\FA.JustBlog\obj\Debug\FA.JustBlog.pdb
 D:\Desktop\Thực tập\Blogggg\FA.JustBlog\FA.JustBlog.Web\obj\Debug\FA.JustBlog.Web.csprojAssemblyReference.cache
-D:\Desktop\Thực tập\Blogggg\FA.JustBlog\FA.JustBlog.Web\obj\Debug\FA.JustBlog.Migrations.Inital.resources
-D:\Desktop\Thực tập\Blogggg\FA.JustBlog\FA.JustBlog.Web\obj\Debug\FA.JustBlog.Web.csproj.GenerateResource.cache
 D:\Desktop\Thực tập\Blogggg\FA.JustBlog\FA.JustBlog.Web\obj\Debug\FA.JustBlog.Web.csproj.CoreCompileInputs.cache
 D:\Desktop\Thực tập\Blogggg\FA.JustBlog\FA.JustBlog.Web\obj\Debug\FA.JustBlog.dll
 D:\Desktop\Thực tập\Blogggg\FA.JustBlog\FA.JustBlog.Web\obj\Debug\FA.JustBlog.pdb
@@ -316,3 +314,5 @@ D:\Desktop\Thực tập\Blogggg\FA.JustBlog\FA.JustBlog.Web\bin\Microsoft.Owin.S
 D:\Desktop\Thực tập\Blogggg\FA.JustBlog\FA.JustBlog.Web\bin\Microsoft.Owin.Security.OAuth.xml
 D:\Desktop\Thực tập\Blogggg\FA.JustBlog\FA.JustBlog.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 D:\Desktop\Thực tập\Blogggg\FA.JustBlog\FA.JustBlog.Web\obj\Debug\FA.JustBlog.Web.csproj.CopyComplete
+D:\Desktop\Thực tập\Blogggg\FA.JustBlog\FA.JustBlog.Web\bin\FA.JustBlog.Common.dll
+D:\Desktop\Thực tập\Blogggg\FA.JustBlog\FA.JustBlog.Web\bin\FA.JustBlog.Common.pdb
