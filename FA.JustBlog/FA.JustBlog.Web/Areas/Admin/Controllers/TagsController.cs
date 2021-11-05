@@ -6,12 +6,14 @@ using System.Linq;
 using System.Net;
 using System.Web;
 using System.Web.Mvc;
+using FA.JustBlog.Areas.Admin.Filters;
 using FA.JustBlog.Core;
 using FA.JustBlog.Services.Tags;
 using FA.JustBlog.ViewModels.Tags;
 
 namespace FA.JustBlog.Areas.Admin.Controllers
 {
+    [CustomAuthorize(Roles = "Admin")]
     public class TagsController : Controller
     {
         private readonly ITagService tagService;

@@ -52,6 +52,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Entities\Category.cs" />
+    <Compile Include="Entities\Comment.cs" />
     <Compile Include="Entities\Post.cs" />
     <Compile Include="Entities\PostTag.cs" />
     <Compile Include="Entities\Tag.cs" />

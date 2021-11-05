@@ -1,6 +1,8 @@
 ﻿using AutoMapper;
 using FA.JustBlog.Core.Models;
+using FA.JustBlog.Models.Entities;
 using FA.JustBlog.ViewModels.Categories;
+using FA.JustBlog.ViewModels.Comments;
 using FA.JustBlog.ViewModels.Posts;
 using FA.JustBlog.ViewModels.Tags;
 using System;
@@ -31,6 +33,12 @@ namespace FA.JustBlog.App_Start
             CreateMap<EditTagViewModel, Tag>().ReverseMap();
             CreateMap<DeleteTagViewModel, Tag>().ReverseMap();
             CreateMap<TagDetailViewModel, Tag>().ReverseMap();
+
+            CreateMap<CreateCommentViewModel, Comment>().ReverseMap();
+            CreateMap<CommentViewModel, Comment>().ReverseMap();
+            CreateMap<EditCommentViewModel, Comment>().ReverseMap();
+            CreateMap<DeleteCommentViewModel, Comment>().ReverseMap();
+            CreateMap<CommentDetailViewModel, Comment>().ReverseMap();
         }
     }
 }

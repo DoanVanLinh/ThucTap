@@ -13,6 +13,7 @@ namespace FA.JustBlog.Core.Infrastructures
         private ICategoryRepository categoryRepository;
         private IPostRepository postRepository;
         private ITagRepository tagRepository;
+        private ICommentRepository commentRepository;
 
         public UnitOfWork(JustBlogContext context)
         {
@@ -24,9 +25,22 @@ namespace FA.JustBlog.Core.Infrastructures
             {
                 if (this.categoryRepository == null)
                 {
-                    this.categoryRepository = new CategoryReponsitory(this.context);
+                    this.categoryRepository = new CategoryRepository(this.context);
                 }
                 return this.categoryRepository;
+
+            }
+        }
+
+        public ICommentRepository CommentRepository
+        {
+            get
+            {
+                if (this.commentRepository == null)
+                {
+                    this.commentRepository = new CommentRepository(this.context);
+                }
+                return this.commentRepository;
 
             }
         }
@@ -36,7 +50,7 @@ namespace FA.JustBlog.Core.Infrastructures
             {
                 if (this.postRepository == null)
                 {
-                    this.postRepository = new PostReponsitory(this.context);
+                    this.postRepository = new PostRepository(this.context);
                 }
                 return this.postRepository;
 
@@ -54,6 +68,7 @@ namespace FA.JustBlog.Core.Infrastructures
 
             }
         }
+
 
         public JustBlogContext JustBlogContext => throw new NotImplementedException();
 

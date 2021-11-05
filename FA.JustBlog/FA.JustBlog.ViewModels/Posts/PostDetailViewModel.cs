@@ -13,7 +13,7 @@ namespace FA.JustBlog.ViewModels.Posts
     public class PostDetailViewModel
     {
         public int Id { get; set; }
-        [Display(Name ="Tiê đề")]
+        [Display(Name ="Tiê đều")]
         public string Title { get; set; }
         [Display(Name = "Mô tả ngắn")]
         public string ShortDescription { get; set; }
@@ -32,6 +32,16 @@ namespace FA.JustBlog.ViewModels.Posts
         public virtual Category Category { get; set; }
         [Display(Name = "Tag")]
         public virtual List<TagViewModel> Tags { get; set; } = new List<TagViewModel>();
+
+        [Display(Name = "Số lượt xem")]
+        public int ViewCount { get; set; }
+
+        [Display(Name = "Số lượt đánh giá")]
+        public int RateCount { get; set; }
+
+        [Display(Name = "Tổng đánh giá")]
+        public int TotalRate { get; set; }
+
         [Display(Name = "Trạng thái")]
         public Status Status { get; set; }
     }

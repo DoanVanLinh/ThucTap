@@ -49,5 +49,15 @@ namespace FA.JustBlog.ViewModels.Posts
 
         [Display(Name = "Tag(các nhau bằng dấu ;)")]
         public string Tags { get; set; }
+
+        [Display(Name = "Số lượt xem")]
+        public int ViewCount { get; set; }
+
+        [Display(Name = "Số lượt đánh giá")]
+        public int RateCount { get; set; }
+
+        [Display(Name = "Tổng đánh giá")]
+        public int TotalRate { get; set; }
+
     }
 }

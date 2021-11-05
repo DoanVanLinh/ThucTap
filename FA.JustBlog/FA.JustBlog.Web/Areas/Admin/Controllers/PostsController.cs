@@ -1,4 +1,5 @@
-﻿using FA.JustBlog.Services.Categories;
+﻿using FA.JustBlog.Areas.Admin.Filters;
+using FA.JustBlog.Services.Categories;
 using FA.JustBlog.Services.IPost;
 using FA.JustBlog.ViewModels.Posts;
 using System;
@@ -9,6 +10,7 @@ using System.Web.Mvc;
 
 namespace FA.JustBlog.Areas.Admin.Controllers
 {
+    [CustomAuthorize(Roles = "Admin")]
     public class PostsController : Controller
     {
         private readonly IPostService postService;

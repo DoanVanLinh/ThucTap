@@ -17,7 +17,7 @@ namespace FA.JustBlog.Areas.Areas
             context.MapRoute(
                 "Admin_default",
                 "Admin/{controller}/{action}/{id}",
-                new {controller = "Posts", action = "Index", id = UrlParameter.Optional },
+                new {controller = "Account", action = "Login", id = UrlParameter.Optional },
                 new string[] { "FA.JustBlog.Areas.Admin.Controllers" }
                 );
         }

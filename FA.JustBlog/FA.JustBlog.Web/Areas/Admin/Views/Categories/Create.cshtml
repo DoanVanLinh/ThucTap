@@ -1,5 +1,5 @@
-﻿@model FA.JustBlog.Core.Models.Category
-
+﻿@using FA.JustBlog.ViewModels.Categories
+@model  CreateCategoryViewModel
 @{
     ViewBag.Title = "Create";
     Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
@@ -8,10 +8,10 @@
 <h2>Thêm Category</h2>
 
 
-@using (Html.BeginForm()) 
+@using (Html.BeginForm())
 {
     @Html.AntiForgeryToken()
-    
+
     <div class="form-horizontal">
         <hr />
         @Html.ValidationSummary(true, "", new { @class = "text-danger" })
@@ -26,7 +26,7 @@
         <div class="form-group">
             @Html.LabelFor(model => model.UrlSlug, htmlAttributes: new { @class = "control-label col-md-2" })
             <div class="col-md-10">
-                @Html.EditorFor(model => model.UrlSlug, new { htmlAttributes = new { @class = "form-control" ,@readonly = true} })
+                @Html.EditorFor(model => model.UrlSlug, new { htmlAttributes = new { @class = "form-control", @readonly = true } })
                 @Html.ValidationMessageFor(model => model.UrlSlug, "", new { @class = "text-danger" })
             </div>
         </div>

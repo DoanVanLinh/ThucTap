@@ -12,7 +12,9 @@ namespace FA.JustBlog.Core.Repositories
     {
         IList<Post> GetPublisedPosts();
         IList<Post> GetUnpublisedPosts();
-        IList<Post> GetLatestPost(int size);
+        IList<Post> GetLatestPost();
+        IList<Post> GetMostViewedPost();
+        IList<Post> GetHighestPosts();
         IList<Post> GetPostsByMonth(DateTime monthYear);
         int CountPostsForCategory(string category);
         IList<Post> GetPostsByCategory(string category);

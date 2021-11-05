@@ -19,5 +19,6 @@ namespace FA.JustBlog.ViewModels.Posts
         public bool Published { get; set; }
         [Display(Name = "Ngày đăng")]
         public DateTime? PostedOn { get; set; }
+        public int? CategoryId { get; set; }
     }
 }

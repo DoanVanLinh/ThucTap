@@ -71,6 +71,8 @@
   <ItemGroup>
     <Compile Include="Categories\CategoryService.cs" />
     <Compile Include="Categories\ICategoryService.cs" />
+    <Compile Include="Comments\ICommentService.cs" />
+    <Compile Include="Comments\CommentService.cs" />
     <Compile Include="Posts\IPostService.cs" />
     <Compile Include="Posts\PostService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

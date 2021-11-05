@@ -12,6 +12,8 @@ namespace FA.JustBlog.Core.Infrastructures
         ICategoryRepository CategoryRepository { get; }
         IPostRepository PostRepository { get; }
         ITagRepository TagRepository { get; }
+        ICommentRepository CommentRepository { get; }
+
         JustBlogContext JustBlogContext { get; }
         int SaveChange();
         Task<int> SaveChangeAsync();

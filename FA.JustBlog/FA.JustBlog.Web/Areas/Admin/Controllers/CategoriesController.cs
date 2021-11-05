@@ -5,9 +5,11 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
+using FA.JustBlog.Areas.Admin.Filters;
 
 namespace FA.JustBlog.Areas.Admin.Controllers
 {
+    [CustomAuthorize(Roles = "Admin")]
     public class CategoriesController : Controller
     {
         private readonly ICategoryService categoryService;

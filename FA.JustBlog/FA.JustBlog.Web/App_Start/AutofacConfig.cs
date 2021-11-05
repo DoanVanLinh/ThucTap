@@ -30,7 +30,7 @@ namespace FA.JustBlog.App_Start
             builder.RegisterType<UnitOfWork>().As<IUnitOfWork>().InstancePerRequest();
 
             // Scan an assembly for components
-            builder.RegisterAssemblyTypes(typeof(PostReponsitory).Assembly)
+            builder.RegisterAssemblyTypes(typeof(PostRepository).Assembly)
                    .Where(t => t.Name.EndsWith("Repository"))
                    .AsImplementedInterfaces()
                    .InstancePerLifetimeScope();
@@ -50,7 +50,7 @@ namespace FA.JustBlog.App_Start
                  .AsImplementedInterfaces()
                  .InstancePerLifetimeScope();
 
-            builder.RegisterAssemblyTypes(typeof(CategoryReponsitory).Assembly)
+            builder.RegisterAssemblyTypes(typeof(CategoryRepository).Assembly)
                    .Where(t => t.Name.EndsWith("Repository"))
                    .AsImplementedInterfaces()
                    .InstancePerLifetimeScope();

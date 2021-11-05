@@ -15,5 +15,5 @@ D:\Desktop\Thực tập\Blogggg\FA.JustBlog\FA.JustBlog.Core\bin\Debug\FA.JustBl
 D:\Desktop\Thực tập\Blogggg\FA.JustBlog\FA.JustBlog.Core\bin\Debug\FA.JustBlog.Models.dll.config
 D:\Desktop\Thực tập\Blogggg\FA.JustBlog\FA.JustBlog.Core\bin\Debug\FA.JustBlog.Common.dll
 D:\Desktop\Thực tập\Blogggg\FA.JustBlog\FA.JustBlog.Core\bin\Debug\FA.JustBlog.Common.pdb
-D:\Desktop\Thực tập\Blogggg\FA.JustBlog\FA.JustBlog.Core\obj\Debug\FA.JustBlog.Core.Migrations.Initall.resources
+D:\Desktop\Thực tập\Blogggg\FA.JustBlog\FA.JustBlog.Core\obj\Debug\FA.JustBlog.Core.Migrations.Inital.resources
 D:\Desktop\Thực tập\Blogggg\FA.JustBlog\FA.JustBlog.Core\obj\Debug\FA.JustBlog.Core.csproj.GenerateResource.cache

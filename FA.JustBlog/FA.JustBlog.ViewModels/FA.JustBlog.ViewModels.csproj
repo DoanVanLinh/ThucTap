@@ -47,6 +47,12 @@
     <Compile Include="Categories\CreateCategoryViewModel.cs" />
     <Compile Include="Categories\DeleteCategoryViewModel.cs" />
     <Compile Include="Categories\EditCategoryViewModel.cs" />
+    <Compile Include="Comments\CreateCommentViewModel.cs" />
+    <Compile Include="Comments\DeleteCommentViewModel.cs" />
+    <Compile Include="Comments\EditCommentViewModel.cs" />
+    <Compile Include="Comments\CommentDetailViewModel.cs" />
+    <Compile Include="Comments\CommentViewModel.cs" />
+    <Compile Include="Logins\LoginViewModel.cs" />
     <Compile Include="Posts\CreatePostViewModel.cs" />
     <Compile Include="Posts\DeletePostViewModel.cs" />
     <Compile Include="Posts\EditPostViewModel.cs" />
