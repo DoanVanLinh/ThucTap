@@ -61,9 +61,9 @@
     <Compile Include="IRepositories\ITagRepository.cs" />
     <Compile Include="JustBlogContext.cs" />
     <Compile Include="JustBlogInitializer.cs" />
-    <Compile Include="Migrations\202111051030392_Inital.cs" />
-    <Compile Include="Migrations\202111051030392_Inital.designer.cs">
-      <DependentUpon>202111051030392_Inital.cs</DependentUpon>
+    <Compile Include="Migrations\202111181506567_Inital.cs" />
+    <Compile Include="Migrations\202111181506567_Inital.designer.cs">
+      <DependentUpon>202111181506567_Inital.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -87,8 +87,8 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202111051030392_Inital.resx">
-      <DependentUpon>202111051030392_Inital.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202111181506567_Inital.resx">
+      <DependentUpon>202111181506567_Inital.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

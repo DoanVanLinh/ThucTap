@@ -13,7 +13,7 @@ namespace FA.JustBlog.Core.Migrations
         
         string IMigrationMetadata.Id
         {
-            get { return "202111051030392_Inital"; }
+            get { return "202111181506567_Inital"; }
         }
         
         string IMigrationMetadata.Source
