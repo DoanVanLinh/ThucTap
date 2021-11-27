@@ -1,0 +1,38 @@
+D:\Desktop\Thực tập\Blogggg\FA.JustBlog\FA.JustBlog.Core\obj\Debug\FA.JustBlog.Core.csproj.CoreCompileInputs.cache
+D:\Desktop\Thực tập\Blogggg\FA.JustBlog\FA.JustBlog.Core\bin\Debug\FA.JustBlog.Core.dll.config
+D:\Desktop\Thực tập\Blogggg\FA.JustBlog\FA.JustBlog.Core\bin\Debug\FA.JustBlog.Core.dll
+D:\Desktop\Thực tập\Blogggg\FA.JustBlog\FA.JustBlog.Core\bin\Debug\FA.JustBlog.Core.pdb
+D:\Desktop\Thực tập\Blogggg\FA.JustBlog\FA.JustBlog.Core\bin\Debug\EntityFramework.dll
+D:\Desktop\Thực tập\Blogggg\FA.JustBlog\FA.JustBlog.Core\bin\Debug\EntityFramework.SqlServer.dll
+D:\Desktop\Thực tập\Blogggg\FA.JustBlog\FA.JustBlog.Core\bin\Debug\EntityFramework.xml
+D:\Desktop\Thực tập\Blogggg\FA.JustBlog\FA.JustBlog.Core\bin\Debug\EntityFramework.SqlServer.xml
+D:\Desktop\Thực tập\Blogggg\FA.JustBlog\FA.JustBlog.Core\obj\Debug\FA.JustBlog.Core.csproj.CopyComplete
+D:\Desktop\Thực tập\Blogggg\FA.JustBlog\FA.JustBlog.Core\obj\Debug\FA.JustBlog.Core.dll
+D:\Desktop\Thực tập\Blogggg\FA.JustBlog\FA.JustBlog.Core\obj\Debug\FA.JustBlog.Core.pdb
+D:\Desktop\Thực tập\Blogggg\FA.JustBlog\FA.JustBlog.Core\obj\Debug\FA.JustBlog.Core.csprojAssemblyReference.cache
+D:\Desktop\Thực tập\Blogggg\FA.JustBlog\FA.JustBlog.Core\bin\Debug\FA.JustBlog.Models.dll
+D:\Desktop\Thực tập\Blogggg\FA.JustBlog\FA.JustBlog.Core\bin\Debug\FA.JustBlog.Models.pdb
+D:\Desktop\Thực tập\Blogggg\FA.JustBlog\FA.JustBlog.Core\bin\Debug\FA.JustBlog.Models.dll.config
+D:\Desktop\Thực tập\Blogggg\FA.JustBlog\FA.JustBlog.Core\bin\Debug\FA.JustBlog.Common.dll
+D:\Desktop\Thực tập\Blogggg\FA.JustBlog\FA.JustBlog.Core\bin\Debug\FA.JustBlog.Common.pdb
+D:\Desktop\Thực tập\Blogggg\FA.JustBlog\FA.JustBlog.Core\obj\Debug\FA.JustBlog.Core.Migrations.Inital.resources
+D:\Desktop\Thực tập\Blogggg\FA.JustBlog\FA.JustBlog.Core\obj\Debug\FA.JustBlog.Core.csproj.GenerateResource.cache
+D:\Desktop\Thực tập\Blogggg\Code_2018600505_DoanVanLinh\FA.JustBlog - Copy\FA.JustBlog.Core\bin\Debug\FA.JustBlog.Core.dll.config
+D:\Desktop\Thực tập\Blogggg\Code_2018600505_DoanVanLinh\FA.JustBlog - Copy\FA.JustBlog.Core\bin\Debug\FA.JustBlog.Core.dll
+D:\Desktop\Thực tập\Blogggg\Code_2018600505_DoanVanLinh\FA.JustBlog - Copy\FA.JustBlog.Core\bin\Debug\FA.JustBlog.Core.pdb
+D:\Desktop\Thực tập\Blogggg\Code_2018600505_DoanVanLinh\FA.JustBlog - Copy\FA.JustBlog.Core\bin\Debug\EntityFramework.dll
+D:\Desktop\Thực tập\Blogggg\Code_2018600505_DoanVanLinh\FA.JustBlog - Copy\FA.JustBlog.Core\bin\Debug\EntityFramework.SqlServer.dll
+D:\Desktop\Thực tập\Blogggg\Code_2018600505_DoanVanLinh\FA.JustBlog - Copy\FA.JustBlog.Core\bin\Debug\FA.JustBlog.Common.dll
+D:\Desktop\Thực tập\Blogggg\Code_2018600505_DoanVanLinh\FA.JustBlog - Copy\FA.JustBlog.Core\bin\Debug\FA.JustBlog.Models.dll
+D:\Desktop\Thực tập\Blogggg\Code_2018600505_DoanVanLinh\FA.JustBlog - Copy\FA.JustBlog.Core\bin\Debug\FA.JustBlog.Common.pdb
+D:\Desktop\Thực tập\Blogggg\Code_2018600505_DoanVanLinh\FA.JustBlog - Copy\FA.JustBlog.Core\bin\Debug\FA.JustBlog.Models.pdb
+D:\Desktop\Thực tập\Blogggg\Code_2018600505_DoanVanLinh\FA.JustBlog - Copy\FA.JustBlog.Core\bin\Debug\FA.JustBlog.Models.dll.config
+D:\Desktop\Thực tập\Blogggg\Code_2018600505_DoanVanLinh\FA.JustBlog - Copy\FA.JustBlog.Core\bin\Debug\EntityFramework.xml
+D:\Desktop\Thực tập\Blogggg\Code_2018600505_DoanVanLinh\FA.JustBlog - Copy\FA.JustBlog.Core\bin\Debug\EntityFramework.SqlServer.xml
+D:\Desktop\Thực tập\Blogggg\Code_2018600505_DoanVanLinh\FA.JustBlog - Copy\FA.JustBlog.Core\obj\Debug\FA.JustBlog.Core.csprojAssemblyReference.cache
+D:\Desktop\Thực tập\Blogggg\Code_2018600505_DoanVanLinh\FA.JustBlog - Copy\FA.JustBlog.Core\obj\Debug\FA.JustBlog.Core.Migrations.Inital.resources
+D:\Desktop\Thực tập\Blogggg\Code_2018600505_DoanVanLinh\FA.JustBlog - Copy\FA.JustBlog.Core\obj\Debug\FA.JustBlog.Core.csproj.GenerateResource.cache
+D:\Desktop\Thực tập\Blogggg\Code_2018600505_DoanVanLinh\FA.JustBlog - Copy\FA.JustBlog.Core\obj\Debug\FA.JustBlog.Core.csproj.CoreCompileInputs.cache
+D:\Desktop\Thực tập\Blogggg\Code_2018600505_DoanVanLinh\FA.JustBlog - Copy\FA.JustBlog.Core\obj\Debug\FA.JustBlog.Core.csproj.CopyComplete
+D:\Desktop\Thực tập\Blogggg\Code_2018600505_DoanVanLinh\FA.JustBlog - Copy\FA.JustBlog.Core\obj\Debug\FA.JustBlog.Core.dll
+D:\Desktop\Thực tập\Blogggg\Code_2018600505_DoanVanLinh\FA.JustBlog - Copy\FA.JustBlog.Core\obj\Debug\FA.JustBlog.Core.pdb

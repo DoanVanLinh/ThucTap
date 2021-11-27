@@ -1,0 +1,53 @@
+﻿@using FA.JustBlog.ViewModels.Categories
+@model  CategoryDetailViewModel
+@{
+    ViewBag.Title = "Detail";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<div class="main-content-container container-fluid px-4">
+    <div class="row">
+        <div class="col">
+            <div class="card card-small mb-4 mt-5">
+                <h2 class="text-center align-middle p-2">Chi tiết</h2>
+                <div class="m-4">
+                    <hr />
+                    <dl class="dl-horizontal">
+
+                        <dt>
+                            @Html.DisplayNameFor(model => model.Name):
+                        </dt>
+                        <dd>
+                            @Html.DisplayFor(model => model.Name)
+                        </dd>
+                        <dt>
+                            @Html.DisplayNameFor(model => model.UrlSlug):
+                        </dt>
+
+                        <dd>
+                            @Html.DisplayFor(model => model.UrlSlug)
+                        </dd>
+
+                        <dt>
+                            @Html.DisplayNameFor(model => model.Description):
+                        </dt>
+
+                        <dd>
+                            @Html.DisplayFor(model => model.Description)
+                        </dd>
+                        <dt>
+                            @Html.DisplayNameFor(model => model.Status):
+                        </dt>
+
+                        <dd>
+                            @Html.DisplayFor(model => model.Status)
+                        </dd>
+                    </dl>
+                </div>
+                <p class="m-4">
+                    <button type="button" class="btn btn-danger">@Html.ActionLink("Quay lại", "Index")</button>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>

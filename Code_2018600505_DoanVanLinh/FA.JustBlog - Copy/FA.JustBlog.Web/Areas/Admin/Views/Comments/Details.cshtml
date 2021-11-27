@@ -1,0 +1,80 @@
+﻿@using FA.JustBlog.ViewModels.Comments
+@model CommentDetailViewModel
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+<div class="main-content-container container-fluid px-4">
+    <div class="row">
+        <div class="col">
+            <div class="card card-small mb-4 mt-5 p-5">
+                <h2 class="text-center align-middle">Chi tiết bình luận</h2>
+
+                <div>
+                    <dl class="dl-horizontal">
+                        <dt>
+                            @Html.DisplayNameFor(model => model.Post.Title)
+                        </dt>
+
+                        <dd>
+                            @Html.DisplayFor(model => model.Post.Title)
+                        </dd>
+
+                        <dt>
+                            @Html.DisplayNameFor(model => model.Name)
+                        </dt>
+
+                        <dd>
+                            @Html.DisplayFor(model => model.Name)
+                        </dd>
+
+                        <dt>
+                            @Html.DisplayNameFor(model => model.Email)
+                        </dt>
+
+                        <dd>
+                            @Html.DisplayFor(model => model.Email)
+                        </dd>
+
+                        <dt>
+                            @Html.DisplayNameFor(model => model.CommentHeader)
+                        </dt>
+
+                        <dd>
+                            @Html.DisplayFor(model => model.CommentHeader)
+                        </dd>
+
+                        <dt>
+                            @Html.DisplayNameFor(model => model.CommentText)
+                        </dt>
+
+                        <dd>
+                            @Html.DisplayFor(model => model.CommentText)
+                        </dd>
+
+                        <dt>
+                            @Html.DisplayNameFor(model => model.CommentTime)
+                        </dt>
+
+                        <dd>
+                            @Html.DisplayFor(model => model.CommentTime)
+                        </dd>
+
+                        <dt>
+                            @Html.DisplayNameFor(model => model.Status)
+                        </dt>
+
+                        <dd>
+                            @Html.DisplayFor(model => model.Status)
+                        </dd>
+
+                    </dl>
+                </div>
+                <p>
+                    <button type="button" class="btn btn-danger">@Html.ActionLink("Quay lại", "Index")</button>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,22 @@
+﻿@using FA.JustBlog.ViewModels.Posts
+@model DeletePostViewModel
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Xóa Post</h2>
+
+<h3>Bạn có muốn xóa Post này không?</h3>
+<div>
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <button type="submit" class="btn btn-success">Xóa</button>
+            <button type="button" class="btn btn-danger">@Html.ActionLink("Quay lại", "Index")</button>
+        </div>
+    }
+</div>

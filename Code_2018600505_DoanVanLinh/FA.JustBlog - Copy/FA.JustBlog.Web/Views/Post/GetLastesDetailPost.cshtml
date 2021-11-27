@@ -1,0 +1,15 @@
+﻿@using FA.JustBlog.ViewModels.Posts
+@model PostDetailViewModel
+@{
+    ViewBag.Title = "GetDetailPost";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<article>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-md-10 mx-auto">
+                @Model.PostContent
+            </div>
+        </div>
+    </div>
+</article>

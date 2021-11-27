@@ -1,0 +1,84 @@
+﻿@using FA.JustBlog.ViewModels.Posts
+@model  IEnumerable<PostViewModel>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+<div class="main-content-container container-fluid px-4">
+    <!-- End Page Header -->
+    <!-- Default Light Table -->
+    <div class="row">
+        <div class="col">
+            <div class="card card-small mb-4 mt-5">
+                <div class="card-header row no-gutters py-4 d-flex justify-content-between fw-bold col-12">
+                    <h3 class="m-0 col-sm-6 col-md-9 col-lg-9 text-black text-center text-sm-left">Bài viết</h3>
+                    <button type="button" class="col-sm-6 col-md-2 col-lg-1 mb-2 btn btn-lg btn-success mr-1">@Html.ActionLink("Thêm", "Create")</button>
+                </div>
+                <div class="card-body p-0 text-center align-middle table-responsive-lg">
+                    <table class="table mb-0 ">
+                        <thead class="bg-light ">
+                            <tr>
+                                <th class="border-0">
+                                    @Html.DisplayNameFor(model => model.Title)
+                                </th>
+                                <th class="border-0">
+                                    @Html.DisplayNameFor(model => model.ShortDescription)
+                                </th>
+                                <th class="border-0">
+                                    @Html.DisplayNameFor(model => model.Published)
+
+                                </th>
+                                <th class="border-0">
+                                    @Html.DisplayNameFor(model => model.PostedOn)
+                                </th>
+                                <th class="border-0">Chức năng</th>
+                            </tr>
+                        </thead>
+                        <tbody class="tbody-light">
+                            @foreach (var item in Model)
+                            {
+                                <tr>
+                                    <td class="align-middle ">
+                                        @Html.DisplayFor(modelItem => item.Title)
+                                    </td>
+                                    <td class="align-middle ">
+                                        @Html.DisplayFor(modelItem => item.ShortDescription)
+                                    </td>
+                                    <td class="align-middle ">
+                                        @Html.DisplayFor(modelItem => item.Published)
+                                    </td>
+                                    <td class="align-middle ">
+                                        @Html.DisplayFor(modelItem => item.PostedOn)
+                                    </td>
+                                    <td class="align-middle d-flex justify-content-center ">
+                                        <button type="button" class="btn btn-lg btn-warning mr-1">@Html.ActionLink("Chỉnh sửa", "Edit", new { id = item.Id })</button>
+                                        <button type="button" class="btn btn-lg btn-info mr-1">@Html.ActionLink("Chi tiết", "Details", new { id = item.Id })</button>
+                                        <button type="button" class="btn btn-lg btn-danger mr-1">@Html.ActionLink("Xóa", "Delete", new { id = item.Id })</button>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+                <div class="card-footer col no-gutters py-4 d-flex flex-column text-center fw-bold col-12 border-top">
+                    <div class="dataTables_info" id="dt-material-checkbox_info" role="status" aria-live="polite">Showing 1 to 10 of 57 entries</div>
+                    <div class="dataTables_paginate paging_simple_numbers d-flex justify-content-center" id="dt-material-checkbox_paginate">
+                        <ul class="pagination">
+                            <li class="paginate_button page-item previous disabled" id="dt-material-checkbox_previous"><a href="#" aria-controls="dt-material-checkbox" data-dt-idx="0" tabindex="0" class="page-link waves-effect waves-effect">Previous</a></li>
+                            <li class="paginate_button page-item active"><a href="#" aria-controls="dt-material-checkbox" data-dt-idx="1" tabindex="0" class="page-link waves-effect waves-effect">1</a></li>
+                            <li class="paginate_button page-item "><a href="#" aria-controls="dt-material-checkbox" data-dt-idx="2" tabindex="0" class="page-link waves-effect waves-effect">2</a></li>
+                            <li class="paginate_button page-item "><a href="#" aria-controls="dt-material-checkbox" data-dt-idx="3" tabindex="0" class="page-link waves-effect waves-effect">3</a></li>
+                            <li class="paginate_button page-item "><a href="#" aria-controls="dt-material-checkbox" data-dt-idx="4" tabindex="0" class="page-link waves-effect waves-effect">4</a></li>
+                            <li class="paginate_button page-item "><a href="#" aria-controls="dt-material-checkbox" data-dt-idx="5" tabindex="0" class="page-link waves-effect waves-effect">5</a></li>
+                            <li class="paginate_button page-item "><a href="#" aria-controls="dt-material-checkbox" data-dt-idx="6" tabindex="0" class="page-link waves-effect waves-effect">6</a></li>
+                            <li class="paginate_button page-item next" id="dt-material-checkbox_next">
+                                <a href="#" aria-controls="dt-material-checkbox" data-dt-idx="7" tabindex="0" class="page-link waves-effect waves-effect">Next</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Default Light Table -->
+</div>

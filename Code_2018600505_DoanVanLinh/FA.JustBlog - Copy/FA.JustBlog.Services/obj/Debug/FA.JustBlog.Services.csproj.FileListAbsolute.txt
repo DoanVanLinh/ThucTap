@@ -1,0 +1,62 @@
+D:\Desktop\Thực tập\Blogggg\FA.JustBlog\FA.JustBlog.Services\bin\Debug\FA.JustBlog.Services.dll.config
+D:\Desktop\Thực tập\Blogggg\FA.JustBlog\FA.JustBlog.Services\bin\Debug\FA.JustBlog.Services.dll
+D:\Desktop\Thực tập\Blogggg\FA.JustBlog\FA.JustBlog.Services\bin\Debug\FA.JustBlog.Services.pdb
+D:\Desktop\Thực tập\Blogggg\FA.JustBlog\FA.JustBlog.Services\bin\Debug\AutoMapper.dll
+D:\Desktop\Thực tập\Blogggg\FA.JustBlog\FA.JustBlog.Services\bin\Debug\AutoMapper.EF6.dll
+D:\Desktop\Thực tập\Blogggg\FA.JustBlog\FA.JustBlog.Services\bin\Debug\DelegateDecompiler.dll
+D:\Desktop\Thực tập\Blogggg\FA.JustBlog\FA.JustBlog.Services\bin\Debug\DelegateDecompiler.EntityFramework.dll
+D:\Desktop\Thực tập\Blogggg\FA.JustBlog\FA.JustBlog.Services\bin\Debug\EntityFramework.dll
+D:\Desktop\Thực tập\Blogggg\FA.JustBlog\FA.JustBlog.Services\bin\Debug\EntityFramework.SqlServer.dll
+D:\Desktop\Thực tập\Blogggg\FA.JustBlog\FA.JustBlog.Services\bin\Debug\FA.JustBlog.Core.dll
+D:\Desktop\Thực tập\Blogggg\FA.JustBlog\FA.JustBlog.Services\bin\Debug\FA.JustBlog.Models.dll
+D:\Desktop\Thực tập\Blogggg\FA.JustBlog\FA.JustBlog.Services\bin\Debug\FA.JustBlog.ViewModels.dll
+D:\Desktop\Thực tập\Blogggg\FA.JustBlog\FA.JustBlog.Services\bin\Debug\Mono.Reflection.dll
+D:\Desktop\Thực tập\Blogggg\FA.JustBlog\FA.JustBlog.Services\bin\Debug\System.ValueTuple.dll
+D:\Desktop\Thực tập\Blogggg\FA.JustBlog\FA.JustBlog.Services\bin\Debug\FA.JustBlog.Core.pdb
+D:\Desktop\Thực tập\Blogggg\FA.JustBlog\FA.JustBlog.Services\bin\Debug\FA.JustBlog.Core.dll.config
+D:\Desktop\Thực tập\Blogggg\FA.JustBlog\FA.JustBlog.Services\bin\Debug\FA.JustBlog.Models.pdb
+D:\Desktop\Thực tập\Blogggg\FA.JustBlog\FA.JustBlog.Services\bin\Debug\FA.JustBlog.Models.dll.config
+D:\Desktop\Thực tập\Blogggg\FA.JustBlog\FA.JustBlog.Services\bin\Debug\FA.JustBlog.ViewModels.pdb
+D:\Desktop\Thực tập\Blogggg\FA.JustBlog\FA.JustBlog.Services\bin\Debug\AutoMapper.pdb
+D:\Desktop\Thực tập\Blogggg\FA.JustBlog\FA.JustBlog.Services\bin\Debug\AutoMapper.xml
+D:\Desktop\Thực tập\Blogggg\FA.JustBlog\FA.JustBlog.Services\bin\Debug\EntityFramework.xml
+D:\Desktop\Thực tập\Blogggg\FA.JustBlog\FA.JustBlog.Services\bin\Debug\EntityFramework.SqlServer.xml
+D:\Desktop\Thực tập\Blogggg\FA.JustBlog\FA.JustBlog.Services\bin\Debug\System.ValueTuple.xml
+D:\Desktop\Thực tập\Blogggg\FA.JustBlog\FA.JustBlog.Services\obj\Debug\FA.JustBlog.Services.csprojAssemblyReference.cache
+D:\Desktop\Thực tập\Blogggg\FA.JustBlog\FA.JustBlog.Services\obj\Debug\FA.JustBlog.Services.csproj.CoreCompileInputs.cache
+D:\Desktop\Thực tập\Blogggg\FA.JustBlog\FA.JustBlog.Services\obj\Debug\FA.JustBlog.Services.csproj.CopyComplete
+D:\Desktop\Thực tập\Blogggg\FA.JustBlog\FA.JustBlog.Services\obj\Debug\FA.JustBlog.Services.dll
+D:\Desktop\Thực tập\Blogggg\FA.JustBlog\FA.JustBlog.Services\obj\Debug\FA.JustBlog.Services.pdb
+D:\Desktop\Thực tập\Blogggg\FA.JustBlog\FA.JustBlog.Services\bin\Debug\FA.JustBlog.Common.dll
+D:\Desktop\Thực tập\Blogggg\FA.JustBlog\FA.JustBlog.Services\bin\Debug\FA.JustBlog.Common.pdb
+D:\Desktop\Thực tập\Blogggg\Code_2018600505_DoanVanLinh\FA.JustBlog - Copy\FA.JustBlog.Services\bin\Debug\FA.JustBlog.Services.dll.config
+D:\Desktop\Thực tập\Blogggg\Code_2018600505_DoanVanLinh\FA.JustBlog - Copy\FA.JustBlog.Services\bin\Debug\FA.JustBlog.Services.dll
+D:\Desktop\Thực tập\Blogggg\Code_2018600505_DoanVanLinh\FA.JustBlog - Copy\FA.JustBlog.Services\bin\Debug\FA.JustBlog.Services.pdb
+D:\Desktop\Thực tập\Blogggg\Code_2018600505_DoanVanLinh\FA.JustBlog - Copy\FA.JustBlog.Services\bin\Debug\AutoMapper.dll
+D:\Desktop\Thực tập\Blogggg\Code_2018600505_DoanVanLinh\FA.JustBlog - Copy\FA.JustBlog.Services\bin\Debug\AutoMapper.EF6.dll
+D:\Desktop\Thực tập\Blogggg\Code_2018600505_DoanVanLinh\FA.JustBlog - Copy\FA.JustBlog.Services\bin\Debug\DelegateDecompiler.dll
+D:\Desktop\Thực tập\Blogggg\Code_2018600505_DoanVanLinh\FA.JustBlog - Copy\FA.JustBlog.Services\bin\Debug\DelegateDecompiler.EntityFramework.dll
+D:\Desktop\Thực tập\Blogggg\Code_2018600505_DoanVanLinh\FA.JustBlog - Copy\FA.JustBlog.Services\bin\Debug\EntityFramework.dll
+D:\Desktop\Thực tập\Blogggg\Code_2018600505_DoanVanLinh\FA.JustBlog - Copy\FA.JustBlog.Services\bin\Debug\EntityFramework.SqlServer.dll
+D:\Desktop\Thực tập\Blogggg\Code_2018600505_DoanVanLinh\FA.JustBlog - Copy\FA.JustBlog.Services\bin\Debug\FA.JustBlog.Core.dll
+D:\Desktop\Thực tập\Blogggg\Code_2018600505_DoanVanLinh\FA.JustBlog - Copy\FA.JustBlog.Services\bin\Debug\FA.JustBlog.Models.dll
+D:\Desktop\Thực tập\Blogggg\Code_2018600505_DoanVanLinh\FA.JustBlog - Copy\FA.JustBlog.Services\bin\Debug\FA.JustBlog.ViewModels.dll
+D:\Desktop\Thực tập\Blogggg\Code_2018600505_DoanVanLinh\FA.JustBlog - Copy\FA.JustBlog.Services\bin\Debug\Mono.Reflection.dll
+D:\Desktop\Thực tập\Blogggg\Code_2018600505_DoanVanLinh\FA.JustBlog - Copy\FA.JustBlog.Services\bin\Debug\System.ValueTuple.dll
+D:\Desktop\Thực tập\Blogggg\Code_2018600505_DoanVanLinh\FA.JustBlog - Copy\FA.JustBlog.Services\bin\Debug\FA.JustBlog.Common.dll
+D:\Desktop\Thực tập\Blogggg\Code_2018600505_DoanVanLinh\FA.JustBlog - Copy\FA.JustBlog.Services\bin\Debug\FA.JustBlog.Core.pdb
+D:\Desktop\Thực tập\Blogggg\Code_2018600505_DoanVanLinh\FA.JustBlog - Copy\FA.JustBlog.Services\bin\Debug\FA.JustBlog.Core.dll.config
+D:\Desktop\Thực tập\Blogggg\Code_2018600505_DoanVanLinh\FA.JustBlog - Copy\FA.JustBlog.Services\bin\Debug\FA.JustBlog.Models.pdb
+D:\Desktop\Thực tập\Blogggg\Code_2018600505_DoanVanLinh\FA.JustBlog - Copy\FA.JustBlog.Services\bin\Debug\FA.JustBlog.Models.dll.config
+D:\Desktop\Thực tập\Blogggg\Code_2018600505_DoanVanLinh\FA.JustBlog - Copy\FA.JustBlog.Services\bin\Debug\FA.JustBlog.ViewModels.pdb
+D:\Desktop\Thực tập\Blogggg\Code_2018600505_DoanVanLinh\FA.JustBlog - Copy\FA.JustBlog.Services\bin\Debug\AutoMapper.pdb
+D:\Desktop\Thực tập\Blogggg\Code_2018600505_DoanVanLinh\FA.JustBlog - Copy\FA.JustBlog.Services\bin\Debug\AutoMapper.xml
+D:\Desktop\Thực tập\Blogggg\Code_2018600505_DoanVanLinh\FA.JustBlog - Copy\FA.JustBlog.Services\bin\Debug\EntityFramework.xml
+D:\Desktop\Thực tập\Blogggg\Code_2018600505_DoanVanLinh\FA.JustBlog - Copy\FA.JustBlog.Services\bin\Debug\EntityFramework.SqlServer.xml
+D:\Desktop\Thực tập\Blogggg\Code_2018600505_DoanVanLinh\FA.JustBlog - Copy\FA.JustBlog.Services\bin\Debug\System.ValueTuple.xml
+D:\Desktop\Thực tập\Blogggg\Code_2018600505_DoanVanLinh\FA.JustBlog - Copy\FA.JustBlog.Services\bin\Debug\FA.JustBlog.Common.pdb
+D:\Desktop\Thực tập\Blogggg\Code_2018600505_DoanVanLinh\FA.JustBlog - Copy\FA.JustBlog.Services\obj\Debug\FA.JustBlog.Services.csprojAssemblyReference.cache
+D:\Desktop\Thực tập\Blogggg\Code_2018600505_DoanVanLinh\FA.JustBlog - Copy\FA.JustBlog.Services\obj\Debug\FA.JustBlog.Services.csproj.CoreCompileInputs.cache
+D:\Desktop\Thực tập\Blogggg\Code_2018600505_DoanVanLinh\FA.JustBlog - Copy\FA.JustBlog.Services\obj\Debug\FA.JustBlog.Services.csproj.CopyComplete
+D:\Desktop\Thực tập\Blogggg\Code_2018600505_DoanVanLinh\FA.JustBlog - Copy\FA.JustBlog.Services\obj\Debug\FA.JustBlog.Services.dll
+D:\Desktop\Thực tập\Blogggg\Code_2018600505_DoanVanLinh\FA.JustBlog - Copy\FA.JustBlog.Services\obj\Debug\FA.JustBlog.Services.pdb

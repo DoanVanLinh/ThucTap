@@ -1,0 +1,24 @@
+D:\Desktop\Thực tập\Blogggg\FA.JustBlog\FA.JustBlog.Models\bin\Debug\FA.JustBlog.Models.dll
+D:\Desktop\Thực tập\Blogggg\FA.JustBlog\FA.JustBlog.Models\bin\Debug\FA.JustBlog.Models.pdb
+D:\Desktop\Thực tập\Blogggg\FA.JustBlog\FA.JustBlog.Models\obj\Debug\FA.JustBlog.Models.csproj.CoreCompileInputs.cache
+D:\Desktop\Thực tập\Blogggg\FA.JustBlog\FA.JustBlog.Models\obj\Debug\FA.JustBlog.Models.dll
+D:\Desktop\Thực tập\Blogggg\FA.JustBlog\FA.JustBlog.Models\obj\Debug\FA.JustBlog.Models.pdb
+D:\Desktop\Thực tập\Blogggg\FA.JustBlog\FA.JustBlog.Models\bin\Debug\FA.JustBlog.Models.dll.config
+D:\Desktop\Thực tập\Blogggg\FA.JustBlog\FA.JustBlog.Models\bin\Debug\EntityFramework.dll
+D:\Desktop\Thực tập\Blogggg\FA.JustBlog\FA.JustBlog.Models\bin\Debug\EntityFramework.SqlServer.dll
+D:\Desktop\Thực tập\Blogggg\FA.JustBlog\FA.JustBlog.Models\bin\Debug\EntityFramework.xml
+D:\Desktop\Thực tập\Blogggg\FA.JustBlog\FA.JustBlog.Models\bin\Debug\EntityFramework.SqlServer.xml
+D:\Desktop\Thực tập\Blogggg\FA.JustBlog\FA.JustBlog.Models\obj\Debug\FA.JustBlog.Models.csproj.CopyComplete
+D:\Desktop\Thực tập\Blogggg\FA.JustBlog\FA.JustBlog.Models\obj\Debug\FA.JustBlog.Models.csprojAssemblyReference.cache
+D:\Desktop\Thực tập\Blogggg\Code_2018600505_DoanVanLinh\FA.JustBlog - Copy\FA.JustBlog.Models\bin\Debug\FA.JustBlog.Models.dll.config
+D:\Desktop\Thực tập\Blogggg\Code_2018600505_DoanVanLinh\FA.JustBlog - Copy\FA.JustBlog.Models\bin\Debug\FA.JustBlog.Models.dll
+D:\Desktop\Thực tập\Blogggg\Code_2018600505_DoanVanLinh\FA.JustBlog - Copy\FA.JustBlog.Models\bin\Debug\FA.JustBlog.Models.pdb
+D:\Desktop\Thực tập\Blogggg\Code_2018600505_DoanVanLinh\FA.JustBlog - Copy\FA.JustBlog.Models\bin\Debug\EntityFramework.dll
+D:\Desktop\Thực tập\Blogggg\Code_2018600505_DoanVanLinh\FA.JustBlog - Copy\FA.JustBlog.Models\bin\Debug\EntityFramework.SqlServer.dll
+D:\Desktop\Thực tập\Blogggg\Code_2018600505_DoanVanLinh\FA.JustBlog - Copy\FA.JustBlog.Models\bin\Debug\EntityFramework.xml
+D:\Desktop\Thực tập\Blogggg\Code_2018600505_DoanVanLinh\FA.JustBlog - Copy\FA.JustBlog.Models\bin\Debug\EntityFramework.SqlServer.xml
+D:\Desktop\Thực tập\Blogggg\Code_2018600505_DoanVanLinh\FA.JustBlog - Copy\FA.JustBlog.Models\obj\Debug\FA.JustBlog.Models.csprojAssemblyReference.cache
+D:\Desktop\Thực tập\Blogggg\Code_2018600505_DoanVanLinh\FA.JustBlog - Copy\FA.JustBlog.Models\obj\Debug\FA.JustBlog.Models.csproj.CoreCompileInputs.cache
+D:\Desktop\Thực tập\Blogggg\Code_2018600505_DoanVanLinh\FA.JustBlog - Copy\FA.JustBlog.Models\obj\Debug\FA.JustBlog.Models.csproj.CopyComplete
+D:\Desktop\Thực tập\Blogggg\Code_2018600505_DoanVanLinh\FA.JustBlog - Copy\FA.JustBlog.Models\obj\Debug\FA.JustBlog.Models.dll
+D:\Desktop\Thực tập\Blogggg\Code_2018600505_DoanVanLinh\FA.JustBlog - Copy\FA.JustBlog.Models\obj\Debug\FA.JustBlog.Models.pdb

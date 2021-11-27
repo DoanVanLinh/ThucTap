@@ -1,0 +1,64 @@
+﻿@using FA.JustBlog.ViewModels.Logins
+@model LoginViewModel
+
+@{ Layout = null; }
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Login 01</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="~/Areas/Admin/Assets/css/style1.css">
+
+</head>
+<body>
+    <section class="ftco-section">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-7 col-lg-5">
+                    <div class="login-wrap p-4 p-md-5">
+                        <div class="icon d-flex align-items-center justify-content-center">
+                            <span class="fa fa-user-o"></span>
+                        </div>
+                        <h3 class="text-center mb-4">Sign In</h3>
+                        @using (Html.BeginForm())
+                        {
+            @Html.AntiForgeryToken()
+                            <form action="#" class="login-form">
+                                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                                <div class="form-group">
+                                    @*@Html.LabelFor(model => model.User, htmlAttributes: new { @class = "control-label col-md-3" })*@
+                                    <div class="col-md-12">
+                                        @Html.EditorFor(model => model.User, new { htmlAttributes = new { @class = "form-control rounded-left", placeholder = "UserName" } })
+                                        @Html.ValidationMessageFor(model => model.User, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+                                <div class="form-group d-flex">
+                                    @*@Html.LabelFor(model => model.Password, htmlAttributes: new { @class = "control-label col-md-2" })*@
+                                    <div class="col-md-12">
+                                        @Html.EditorFor(model => model.Password, new { htmlAttributes = new { @class = "form-control rounded-left", placeholder = "Password" } })
+                                        @Html.ValidationMessageFor(model => model.Password, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <button type="submit" class="form-control btn btn-primary rounded submit px-3">Login</button>
+                                </div>
+                            </form>}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="~/Areas/Admin/Assets/js/jquery.min.js"></script>
+    <script src="~/Areas/Admin/Assets/js/popper.js"></script>
+    <script src="~/Areas/Admin/Assets/js/bootstrap.min.js"></script>
+    <script src="~/Areas/Admin/Assets/js/main.js"></script>
+</body>
+</html>
+
